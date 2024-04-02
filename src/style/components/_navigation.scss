@@ -1,0 +1,89 @@
+.navigation {
+    // position: absolute;
+    top: 1rem;
+    left: 1.4rem;
+    font-size: 1.4rem;
+    line-height: 28px;
+    color: rgb(228, 204, 204);
+    font-family: 'permanent marker', cursive;
+  
+    // &:before {
+    //   content: '';
+    //   position: absolute;
+    //   height: 300px;
+    //   width: 300px;
+    //   border-radius: 50%;
+    //   background: yellow;
+    //   top: -150px;
+    //   left: -160px;
+    //   z-index: -1;
+    //   animation: navAnim 20s infinite alternate;
+  
+    //   @keyframes navAnim {
+    //     50% {
+    //       transform: scale(1.2);
+    //     }
+    //     100% {
+    //       transform: scale(1);
+    //     }
+    //   }
+    //   @media screen and (max-width: 430px){
+    //     height: 50px;
+    //     width: 50px;
+    //   }
+    // }
+    .navigation-row {
+        display: flex;
+        gap:20px;
+    }
+    .nav-active {
+      color: rgb(225, 209, 209);
+      text-decoration: none;
+      list-style: none;
+    }
+    ul:hover li:not(:hover) {
+      opacity: .5;
+    }
+    // ul:hover li:hover {
+    //   // color: rgb(242, 226, 226);
+    // }
+  
+    .nav-portfolio {
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap:50px;
+      // padding-right: 6rem;
+      transition: .5s;
+  
+      &:hover .nav-projects,
+      .nav-projects:hover {
+    
+        visibility: visible;
+        opacity: 1;
+  
+        li {
+          transform: rotatey(0deg)
+        }
+      }
+  
+      .nav-projects {
+        position: absolute;
+        // visibility: hidden;
+        opacity: 0;
+        padding: 0 20px;
+        width: 80px;
+        transform: translateX(0);
+        transition: .3s ;
+        perspective: 500px;
+  
+        li {
+          transform: rotatey(60deg) scaleX(1.2);
+          transform-origin: center;
+          transition: .5s;
+        }
+      }
+    }
+  }

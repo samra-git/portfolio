@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.header-title {
+    width: 30px;
+    color:#e9c794;
+    
+     &:before {
+      content: '';
+      position: absolute;
+      height: 300px;
+      width: 430px;
+      border-radius: 50%;
+      background: rgb(52, 26, 26);
+      top: -150px;
+      left: -160px;
+      z-index: -1;
+      animation: navAnim 20s infinite alternate;
+  
+      @keyframes navAnim {
+        50% {
+          transform: scale(1.2);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+      @media screen and (max-width: 430px){
+        height: 50px;
+        width: 50px;
+      }
+    }
+}
