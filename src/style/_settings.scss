@@ -3,8 +3,11 @@
 // $color-1: rgb(225, 209, 209);
 // $color-2: rgb(84, 63, 63);
 
-$color-2: linear-gradient(90deg, rgba(233, 199, 148, 0.31994047619047616) 34%, rgba(238, 209, 174, 1) 100%);
-$color-1: #8B4513;
+$color-2: linear-gradient(90deg, rgba(7,14,11,1) 7%, rgba(101,194,160,1) 100%);
+$color-1: #abf2d8;
+// $color-2: linear-gradient(90deg, rgba(233, 199, 148, 0.31994047619047616) 34%, rgba(238, 209, 174, 1) 100%);
+// $color-1: #8B4513;
+
 
 
 
@@ -13,11 +16,12 @@ $color-1: #8B4513;
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    padding: 0;
+    // padding: 0;
     box-sizing: border-box;
     background: $color-2;
     color: $color-1;
     padding: 20px;
+    width: 100%;
 
     a,
     li {

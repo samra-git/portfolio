@@ -11,6 +11,8 @@ import Projet7 from './pages/Projet7';
 import Error from './pages/Error';
 import Header from './layout/Header';
 import Footer from './layout/Footer';
+import Projets from './pages/Projets';
+import Details from './pages/Details';
 
 const App = () => {
     return (
@@ -19,6 +21,8 @@ const App = () => {
             <Routes>
 
                 <Route path="/" element={<Home />} />
+                <Route path="/projets" element={<Projets />} />
+                <Route path="/projet/:id" element={<Details />} />
                 <Route path="/projet1" element={<Projet1 />} />
                 <Route path="/projet2" element={<Projet2 />} />
                 <Route path="/projet3" element={<Projet3 />} />

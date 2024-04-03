@@ -1,7 +1,14 @@
 .projets {
     // margin: 50px;
     padding: 50px;
+
     // margin: 00px;
+    @media screen and (min-width:820px) {
+        padding: 20px;
+    }
+
+
+
 }
 
 .carousel {
@@ -20,6 +27,7 @@
     transform-style: preserve-3d;
     transform: perspective(1000px);
     transition: 1s ease-in-out;
+
 
 }
 
@@ -48,8 +56,8 @@
     &:hover {
         box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
         transition: 0.8s;
-        width: 200px;
-        height: 150px;
+        // width: 200px;
+        // height: 150px;
     }
 
     img {
@@ -59,6 +67,8 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+    border-radius: 10px;
+
     }
 }
 
@@ -70,20 +80,21 @@
     // transform: translateY(5px);
     opacity: 0;
     transition: opacity 1s;
+
     // padding: 10px;
-     p {
+    p {
         font-size: 10px;
         font-weight: 500;
-    padding: 10px;
+        padding: 10px;
 
-     }
-
-
-    &:hover {
-        transform: translateY(100px);
-        opacity: 1;
-        transition: transform 1s, opacity 1s;
     }
+
+
+    // &:hover {
+    //     transform: translateY(100px);
+    //     opacity: 1;
+    //     transition: transform 1s, opacity 1s;
+    // }
 }
 
 //  .box span img{
@@ -114,10 +125,7 @@
     padding-left: 5px;
 }
 
-.left:hover,
-.right:hover {
-    //  background: rgba(128,128,128,0.5);
-}
+
 
 .right {
     position: absolute;

@@ -23,7 +23,7 @@ const Carousel = (props) => {
         else if(window.innerWidth < 1200)
             z = 400;
         else if(window.innerWidth < 1600)
-            z = 500;
+            z = 450;
         else if(window.innerWidth >= 1600)
             z = 600;
         

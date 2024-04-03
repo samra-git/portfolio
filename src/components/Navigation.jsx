@@ -1,5 +1,6 @@
 // import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Navigation = () => {
     return (
@@ -10,34 +11,10 @@ const Navigation = () => {
                 </NavLink>
 
                 <li className="nav-portfolio">
-                   <a href="#projets">projets</a> 
-
-                    {/* <ul className="nav-projects">
-                        <NavLink to='/projet1' className="nav-active ">
-                            <li>projet 1</li>
-                        </NavLink>
-                        <NavLink to='/projet2' className="nav-active">
-                            <li>projet 2</li>
-                        </NavLink>
-                        <NavLink to='/projet3' className="nav-active">
-                            <li>projet 3</li>
-                        </NavLink>
-                        <NavLink to='/projet4' className="nav-active ">
-                            <li>projet 4</li>
-                        </NavLink>
-                        <NavLink to='/projet5' className="nav-active">
-                            <li>projet 5</li>
-                        </NavLink>
-                        <NavLink to='/projet6' className="nav-active">
-                            <li>projet 6</li>
-                        </NavLink>
-                        <NavLink to='/projet7' className="nav-active hover">
-                            <li>projet 7</li>
-                        </NavLink>
-                    </ul> */}
+                         <NavLink to="/projets">projets</NavLink> 
                 </li>
                 <li>
-                    <a href="#footer" >contact</a>
+                    <Link to="#footer" >contact</Link>
                 </li>
 
             </ul>

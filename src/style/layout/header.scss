@@ -6,7 +6,7 @@
 
 .header-title {
     width: 30px;
-    color:#e9c794;
+    color:rgba(7,14,11,1);
     
      &:before {
       content: '';
@@ -14,7 +14,7 @@
       height: 300px;
       width: 430px;
       border-radius: 50%;
-      background: rgb(52, 26, 26);
+      background: #abf2d8;
       top: -150px;
       left: -160px;
       z-index: -1;

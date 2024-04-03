@@ -10,7 +10,7 @@ import events from '../assets/724events.png'
 import Carousel from "./Carousel"
 import { Link } from "react-router-dom"
 
-function Projets() {
+function ProjetSlide() {
   return (
     <div className="projets">
       <h1 id="projets">Projets</h1>
@@ -37,4 +37,4 @@ function Projets() {
   );
 }
 
-export default Projets;
+export default ProjetSlide;
