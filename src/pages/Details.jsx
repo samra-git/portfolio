@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { images } from '../data/data.js'
+import data from '../data/data.json'
 
 const Details = () => {
     const [getCard, setGetCard] = useState([]);
     const { id } = useParams();
     
-    console.log(images);
+    // console.log(images);
 
 
     useEffect(() => {
-        setGetCard(images)
+        setGetCard(data)
     }, [])
 
     const cardId = getCard.find((item) => item.id === id)

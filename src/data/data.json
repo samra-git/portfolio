@@ -1,10 +1,9 @@
-export const images = 
 
 [
     {
         "id":"1",
         "title":"Booki",
-        "cover": "./assets/bookiWebp.webp",
+        "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/bookiWebp.webp",
         "description": "booki",
         "github":"https://github.com/samra-git/P3-booki.git",
         "link":"https://samra-git.github.io/P3-booki/",

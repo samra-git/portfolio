@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { images } from '../data/data.js';
+import data from '../data/data.json';
 import Cards from '../components/Cards';
 
 const Projets = () => {
     const [projet, setProjet] = useState([])
 
     useEffect(() => {
-        setProjet(images)
+        setProjet(data)
     }, [])
 
 
