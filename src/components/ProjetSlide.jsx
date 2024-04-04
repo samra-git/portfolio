@@ -10,13 +10,30 @@ import events from '../assets/724events.png'
 import Carousel from "./Carousel"
 import { Link } from "react-router-dom"
 import data from '../data/data.json'
+import { useEffect, useState } from "react"
 
 function ProjetSlide() {
+  const [projets, setProjets] = useState([])
+
+  useEffect(() => {
+    setProjets(data)
+  }, [])
+
   return (
     < div className="projets">
       <h1 id="projets">Projets</h1>
-
       <Carousel>
+        {projets.map((projet) => (
+          <Link key={projet.id} to={`/projets/projet/${projet.id}`} className="carouselBox">
+            <img src={projet.cover} alt={projet.title} />
+          </Link>
+
+      ))
+        }
+      </Carousel>
+     
+
+      {/* <Carousel>
         <Link to="/projets/projet/1" className="carouselBox"><img src={booki} /></Link>
         <Link to="/projets/projet/2" className="carouselBox"><img src={ohmyfood} /></Link>
         <Link to="/projets/projet/3" className="carouselBox"><img src={sophieBluel} /></Link>
@@ -24,7 +41,7 @@ function ProjetSlide() {
         <Link to="/projets/projet/5" className="carouselBox"><img src={ninaCarducci} /></Link>
         <Link to="/projets/projet/6" className="carouselBox"><img src={events} /></Link>
         <Link to="/projets/projet/7" className="carouselBox"><img src={argentBank} /></Link>
-      </Carousel>
+      </Carousel> */}
     </div>
   );
 }
