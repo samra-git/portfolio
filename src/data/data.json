@@ -12,7 +12,7 @@
     {
         "id":"2",
         "title":"Ohmyfood",
-        "cover": "/assets/ohmyfood.png",
+        "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/ohmyfoodW.webp",
         "description": "ohmyfood",
         "github": "https://github.com/samra-git/P4_ohmyfood.git",
         "link":"https://samra-git.github.io/P4_ohmyfood/",
