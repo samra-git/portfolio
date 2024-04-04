@@ -12,7 +12,7 @@
     {
         "id":"2",
         "title":"Ohmyfood",
-        "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/ohmyfoodW.webp",
+        "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/ohmyfood600w.webp",
         "description": "ohmyfood",
         "github": "https://github.com/samra-git/P4_ohmyfood.git",
         "link":"https://samra-git.github.io/P4_ohmyfood/",
@@ -21,7 +21,7 @@
     {
         "id":"3",
         "title":"Sophie Bluel",
-        "cover": "./assets/sophieBluel.png",
+        "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/sophieBluelW.webp",
         "description": "sBluel",
         "github":"https://github.com/samra-git/sophie_bluel_P6.git",
         "link":"https://samra-git.github.io/sophie_bluel_P6/FrontEnd/index.html",
@@ -30,7 +30,7 @@
     {
         "id":"4",
         "title":"kasa",
-        "cover": "./assets/kasa.png",
+        "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/kasaW.webp",
         "description": "kasa",
         "github":"https://github.com/samra-git/kasa_p8.git",
         "link":"https://kasa-oc-p8.netlify.app/",
@@ -39,7 +39,7 @@
     { 
         "id":"5",
          "title":"Nina Carducci",
-        "cover": "./assets/ninaCarducci.png",
+        "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/ninaW.webp",
         "description": "ninaC",
         "github":"https://github.com/samra-git/P9_Nina_carducci.git",
         "link":"https://samra-git.github.io/P9_Nina_carducci/",
@@ -57,7 +57,7 @@
     {
         "id":"7",
         "title":"ArgentBank",
-        "cover": "./assets/argentBank.png",
+        "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/argentbankW.webp",
         "description": "argentBank",
         "github":"https://github.com/samra-git/ArgentBank-website.git",
         "link":"",
