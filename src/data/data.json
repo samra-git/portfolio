@@ -48,7 +48,7 @@
     {
         "id":"6",
         "title": "724events",
-        "cover": "./assets/724events.png",
+        "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/724eW.webp",
         "description": "724events",
         "github":"https://github.com/samra-git/P10_974events.git",
         "link":"https://724-events-oc.netlify.app/",

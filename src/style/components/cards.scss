@@ -1,13 +1,32 @@
 .card-container {
-    flex:1;
+    flex: 1;
     width: 18.75 rem;
-    border: 1px solid purple;
+    // border: 1px solid purple;
     border-radius: 10px;
     padding: 10px;
     transition: 0.5s;
+    max-width: 300px;
 
+    img {
+        width: 300px;
+        border-radius: 10px;
+    }
 
-
+    &:hover {
+        box-shadow: rgba(17, 17, 26, 0.3) 0px 8px 24px, rgba(17, 17, 26, 0.3) 0px 16px 24px, rgba(17, 17, 26, 0.3) 0px 24px 24px;
+        transition: all 300ms ease;
+        background-color: rgb(62, 115, 97);
+        color: $color-4 !important;
+    }
     
-}
+    .card-content {
+        color: $color-3;
+        &:hover{
+            
+        }
+    }
 
+
+
+
+}
