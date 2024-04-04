@@ -1,10 +1,10 @@
-
+export const images = 
 
 [
     {
         "id":"1",
         "title":"Booki",
-        "cover": "./assets/booki.png",
+        "cover": "./assets/bookiWebp.webp",
         "description": "booki",
         "github":"https://github.com/samra-git/P3-booki.git",
         "link":"https://samra-git.github.io/P3-booki/",
@@ -13,7 +13,7 @@
     {
         "id":"2",
         "title":"Ohmyfood",
-        "cover": "./assets/ohmyfood.png",
+        "cover": "/assets/ohmyfood.png",
         "description": "ohmyfood",
         "github": "https://github.com/samra-git/P4_ohmyfood.git",
         "link":"https://samra-git.github.io/P4_ohmyfood/",
