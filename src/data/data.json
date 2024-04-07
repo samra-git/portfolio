@@ -4,16 +4,16 @@
         "id":"1",
         "title":"Booki",
         "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/bookiWebp.webp",
-        "description": "booki",
+        "description": "La mission principale est d'intégrer l'interface responsive d'un site d'une agence de voyage, en utilisant HTML et CSS.",
         "github":"https://github.com/samra-git/P3-booki.git",
         "link":"https://samra-git.github.io/P3-booki/",
-        "technos":"html, css"
+        "technos":"HTML, CSS"
     },
     {
         "id":"2",
         "title":"Ohmyfood",
         "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/ohmyfood600w.webp",
-        "description": "ohmyfood",
+        "description": "ohmyfood...",
         "github": "https://github.com/samra-git/P4_ohmyfood.git",
         "link":"https://samra-git.github.io/P4_ohmyfood/",
         "technos":"Sass"
@@ -22,7 +22,7 @@
         "id":"3",
         "title":"Sophie Bluel",
         "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/sophieBluelW.webp",
-        "description": "sBluel",
+        "description": "sBluel...",
         "github":"https://github.com/samra-git/sophie_bluel_P6.git",
         "link":"https://samra-git.github.io/sophie_bluel_P6/FrontEnd/index.html",
         "technos":"javascript"
@@ -31,7 +31,7 @@
         "id":"4",
         "title":"kasa",
         "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/kasaW.webp",
-        "description": "kasa",
+        "description": "kasa...",
         "github":"https://github.com/samra-git/kasa_p8.git",
         "link":"https://kasa-oc-p8.netlify.app/",
         "technos":"react"
@@ -40,7 +40,7 @@
         "id":"5",
          "title":"Nina Carducci",
         "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/ninaW.webp",
-        "description": "ninaC",
+        "description": "ninaC...",
         "github":"https://github.com/samra-git/P9_Nina_carducci.git",
         "link":"https://samra-git.github.io/P9_Nina_carducci/",
         "technos":"Seo"
@@ -49,7 +49,7 @@
         "id":"6",
         "title": "724events",
         "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/724eW.webp",
-        "description": "724events",
+        "description": "724events...",
         "github":"https://github.com/samra-git/P10_974events.git",
         "link":"https://724-events-oc.netlify.app/",
         "technos":"debug"
@@ -58,7 +58,7 @@
         "id":"7",
         "title":"ArgentBank",
         "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/argentbankW.webp",
-        "description": "argentBank",
+        "description": "argentBank...",
         "github":"https://github.com/samra-git/ArgentBank-website.git",
         "link":"",
         "technos":"redux"

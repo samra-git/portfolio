@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import data from '../data/data.json';
 import Cards from '../components/Cards';
+import { motion } from "framer-motion";
+
 
 const Projets = () => {
     const [projet, setProjet] = useState([])
@@ -11,7 +13,15 @@ const Projets = () => {
 
 
     return (
-        <div className='projet-contain'>
+        <motion.div 
+        className='projet-contain'
+        initial={{ opacity:0}}
+        animate={{opacity:1}}
+        transition={{
+         ease:"linear",
+         delay:"0.1"
+        }}
+        >
             <div className='projet-container'>
                 {projet.map((item) => (
                     <Cards
@@ -26,7 +36,7 @@ const Projets = () => {
 
             </div>
             
-        </div>
+        </motion.div>
     );
 };
 

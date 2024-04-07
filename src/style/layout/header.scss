@@ -6,15 +6,16 @@
 
 .header-title {
     width: 30px;
-    color:rgba(7,14,11,1);
+    // color: ;
+    margin-top: 0;
     
      &:before {
       content: '';
       position: absolute;
       height: 300px;
-      width: 430px;
+      width: 400px;
       border-radius: 50%;
-      background: #abf2d8;
+      background: #4e8a74;
       top: -150px;
       left: -160px;
       z-index: -1;

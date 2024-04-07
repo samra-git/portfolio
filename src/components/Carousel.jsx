@@ -36,13 +36,13 @@ const Carousel = (props) => {
     }
 
     const clickButtonLeft = () =>{
-        deg -= 360 / nElements;
+        deg += 360 / nElements;
         const box = document.querySelector('.box');
         box.style.transform = 'perspective(1000px) rotateY(' + deg + 'deg)';
     }
 
     const clickButtonRight = () => {
-        deg += 360 / nElements;
+        deg -= 360 / nElements;
         const box = document.querySelector('.box');
         box.style.transform = 'perspective(1000px) rotateY(' + deg + 'deg)';
     }

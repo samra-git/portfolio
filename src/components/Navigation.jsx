@@ -7,15 +7,10 @@ const Navigation = () => {
         <div className="navigation">
             <ul className='navigation-row'>
                 <NavLink to='/' className="nav-active ">
-                    <li>accueil</li>
-                </NavLink>
+                    <li>Accueil</li> </NavLink>
+                <NavLink to="/projets"><li>Projets</li></NavLink>
+                <Link to="#footer" ><li>Contact</li></Link>
 
-                <li className="nav-portfolio">
-                         <NavLink to="/projets">projets</NavLink> 
-                </li>
-                <li>
-                    <Link to="#footer" >contact</Link>
-                </li>
 
             </ul>
         </div>

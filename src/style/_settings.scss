@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk:MORF,SHLN@25,47.7&family=Montserrat:wght@300;500;800&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Honk:MORF,SHLN@25,47.7&family=Montserrat:wght@300;500;800&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Honk:MORF,SHLN@25,47.7&family=Montserrat:wght@300;500;800&family=Pattaya&family=Permanent+Marker&display=swap');
+@import url('https://fonts.cdnfonts.com/css/elegant-2');
+@import url('https://fonts.cdnfonts.com/css/ballet');
+@import url('https://fonts.cdnfonts.com/css/pierce-jameson');
 
 // $color-1: rgb(225, 209, 209);
 // $color-2: rgb(84, 63, 63);
-$color-1: #abf2d8;
+$color-1:whitesmoke;
 $color-2: linear-gradient(90deg, rgba(7,14,11,1) 7%, rgba(101,194,160,1) 100%);
 $color-3: rgb(214, 245, 234);
 $color-4: rgb(9, 60, 9);
@@ -16,9 +21,8 @@ $color-4: rgb(9, 60, 9);
 
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: '', sans-serif;
     margin: 0;
-    // padding: 0;
     box-sizing: border-box;
     background: $color-2;
     color: $color-1;
@@ -32,9 +36,10 @@ body {
         list-style: none;
     }
 
-    /* margin: 40px; */
 }
 
 h1 {
-    font-family: 'permanent marker', cursive;
+    font-family: 'Pierce Jameson', sans-serif;
+    color:$color-1;;
+    font-size: 40px;
 }

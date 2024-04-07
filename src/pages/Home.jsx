@@ -5,14 +5,23 @@ import Apropos from '../components/Apropos';
 // import Sliders from '../components/Projets';
 import Competences from '../components/Competences';
 import ProjetSlide from '../components/ProjetSlide';
+import { motion } from "framer-motion";
+
 
 const Home = () => {
   return (
-    <div>
+    <motion.div 
+    initial={{ opacity:0}}
+    animate={{opacity:1}}
+    transition={{
+     ease:"linear",
+     delay:"0.1"
+    }}
+    >
       <Apropos />
       <ProjetSlide />
       <Competences />
-    </div>
+    </motion.div>
 
   );
 };

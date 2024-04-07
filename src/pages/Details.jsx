@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import data from '../data/data.json'
+import { motion } from 'framer-motion';
 
 const Details = () => {
     const [getCard, setGetCard] = useState([]);
     const { id } = useParams();
-    
+
     // console.log(images);
 
 
@@ -21,15 +22,25 @@ const Details = () => {
     const description = cardId && cardId.description
 
     return (
-        <div>
-           
-                  <h1> hello {title}</h1>
-                  <img src={cover} alt="image" />
-                  <p>{description}</p>
-                   {/* {cardId && cardId.map((item) => (
-                <p>{item.title}</p> */}
-                   {/* )
-                   )} */}
+        <div className='details-container'>
+
+            <h1> hello {title}</h1>
+            <div className='details-contain'>
+                <motion.img 
+                initial={{ rotate: 180}}
+                transition={{
+                    ease:"linear",
+                    delay:"0.1"
+                }}
+                animate={{ rotate: 0}}
+                whileHover={{scale:1.5}}
+                src={cover} alt="image" />
+                <motion.p
+                whileTap={{scale:1.2}}
+                >{description}</motion.p>
+            </div>
+
+            
         </div>
     );
 };
