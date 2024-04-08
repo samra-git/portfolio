@@ -11,9 +11,12 @@ import Carousel from "./Carousel"
 import { Link } from "react-router-dom"
 import data from '../data/data.json'
 import { useEffect, useState } from "react"
+import { FaArrowUpRightFromSquare } from "react-icons/fa6"
 
 function ProjetSlide() {
-  const [projets, setProjets] = useState([])
+  const [projets, setProjets] = useState([]);
+  const [hovered, setHovered] = useState(false)
+
 
   useEffect(() => {
     setProjets(data)
@@ -25,13 +28,27 @@ function ProjetSlide() {
       <Carousel>
         {projets.map((projet) => (
           <Link key={projet.id} to={`/projets/projet/${projet.id}`} className="carouselBox">
-            <img src={projet.cover} alt={projet.title} />
+            <div className="carouselBox-overlayWrapper">
+              <div>
+                <img src={projet.cover} alt={projet.title} />
+              </div>
+              <div className="carouselBox-overlay">
+                <p>{projet.title}</p>
+                <FaArrowUpRightFromSquare />
+              </div>
+            </div>
+
+
           </Link>
 
-      ))
+
+
+
+
+        ))
         }
       </Carousel>
-     
+
 
       {/* <Carousel>
         <Link to="/projets/projet/1" className="carouselBox"><img src={booki} /></Link>

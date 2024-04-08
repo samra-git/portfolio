@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "logo":"../src/assets/logos/html.png",
+        "title":"HTML"
+    },
+    {
+        "id": 2,
+        "logo":"../src/assets/logos/css3.png",
+        "title":"CSS"
+    },
+    {
+        "id": 3,
+        "logo":"../src/assets/logos/js.png",
+        "title":"Javascript"
+    },
+    {
+        "id": 4,
+        "logo":"../src/assets/logos/react.png",
+        "title":"React"
+    },
+    {
+        "id": 5,
+        "logo":"../src/assets/logos/redux.png",
+        "title":"Redux"
+    },
+    {
+        "id": 6,
+        "logo":"../src/assets/logos/mongodb.png",
+        "title":"MangoDB"
+    },
+    {
+        "id": 7,
+        "logo":"../src/assets/logos/sass.png",
+        "title":"Sass"
+    },
+    {
+        "id": 8,
+        "logo":"../src/assets/logos/github.png",
+        "title":"Github"
+    }
+]

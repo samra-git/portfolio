@@ -1,8 +1,9 @@
-import {useEffect} from 'react';
+import {useEffect, useState} from 'react';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 
 const Carousel = (props) => {
+
     let deg = 0;
     let nElements;
 
@@ -48,8 +49,8 @@ const Carousel = (props) => {
     }
 
     return(
-        <div className="carousel">
-            <div className="box">
+        <div className="carousel">   
+           <div className="box">
                 {props.children}
             </div>
             <div onClick={clickButtonLeft} className="left"><IoIosArrowBack /></div>

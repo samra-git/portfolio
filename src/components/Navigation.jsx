@@ -9,6 +9,7 @@ const Navigation = () => {
                 <NavLink to='/' className="nav-active ">
                     <li>Accueil</li> </NavLink>
                 <NavLink to="/projets"><li>Projets</li></NavLink>
+                <Link to="#compétences" ><li>Compétences</li></Link>
                 <Link to="#footer" ><li>Contact</li></Link>
 
 

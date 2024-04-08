@@ -2,3 +2,28 @@
    padding: 50px;
    margin-top: 50px;
 }
+.competences-contain {
+   display: flex;
+   justify-content: center;
+   gap: 50px;
+   overflow: hidden;
+   scroll-snap-type: x mandatory;
+   -webkit-overflow-scrolling: touch;
+   scroll-behavior: smooth;
+   
+}
+
+.competences-slide{
+   scroll-snap-align: center;
+}
+
+.logo-slide{
+     display: inline-block;
+     animation: slide 10s infinite linear;
+
+     img{
+      width: 40px;
+      height: 40px;
+      margin: 0 20px;
+     }
+}
