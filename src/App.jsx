@@ -10,7 +10,6 @@ import Details from './pages/Details';
 const App = () => {
     return (
         <BrowserRouter>
-            <Header />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/projets" element={<Projets />} />

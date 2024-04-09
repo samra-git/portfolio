@@ -11,8 +11,8 @@ const Competences = () => {
             <h1>Compétences</h1>
             <h2>hard skills</h2>
             <div className='competences-contain'>
-                {extendedSkills.map((item) => (
-                    <div key={item.id} className='competences-slide'>
+                {extendedSkills.map((item, index) => (
+                    <div key={index} className='competences-slide'>
                         {/* <p>{item.title}</p> */}
                         <div className='logo-slide'>
                             <img src={item.logo} alt="logo" title={item.title}/>

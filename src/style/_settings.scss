@@ -7,10 +7,11 @@
 
 // $color-1: rgb(225, 209, 209);
 // $color-2: rgb(84, 63, 63);
-$color-1:whitesmoke;
-$color-2: linear-gradient(90deg, rgba(7,14,11,1) 7%, rgba(101,194,160,1) 100%);
+$color-1:#4c3e2c;
+// $color-2: linear-gradient(90deg, rgba(7,14,11,1) 7%, rgba(101,194,160,1) 100%);
+$color-2: linear-gradient(90deg, rgba(242,224,202, 1) 7%, rgba(191,170,143, 1) 70%,);
 $color-3: rgb(214, 245, 234);
-$color-4: rgb(9, 60, 9);
+// $color-4: rgb(9, 60, 9);
 // $color-2: rgb(128, 128, 128);
 // $color-2: linear-gradient(90deg, rgba(128,128,128) 7%, rgba(175, 175 ,175) 100%);
 
@@ -41,7 +42,7 @@ body {
 }
 
 h1 {
-    font-family: 'Pierce Jameson', sans-serif;
+    font-family: 'Monserrat', sans-serif;
     color:$color-1;;
     font-size: 40px;
 }

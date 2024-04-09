@@ -14,7 +14,7 @@ const Header = () => {
     const scrollFunction = () => {
         const header = document.querySelector(".header");
         if (header) {
-            if (window.scrollY > 600) {
+            if (window.scrollY > 850) {
                 header.style.top = "-120px";
                 header.style.transition = "600ms"
             } else {
@@ -22,24 +22,7 @@ const Header = () => {
                 header.style.transition = "600ms";
             }
         }
-        // if (header) {
-        //     if (window.scrollY > 80) {
-        //         header.style.top = "-120px";
-        //         header.style.transition = "600ms"
-        //     } else {
-        //         header.style.top = "0";
-        //         header.style.transition = "600ms";
-        //     }
-        // }
-        // if (header) {
-        //     if (window.scrollY > 80) {
-        //         header.style.top ="0"
-        //         header.style.transition = "600ms"
-        //     } else if (window.scrollY < 80){
-        //         header.style.top = "-100px";
-        //         header.style.transition = "600ms"
-        //     }
-        // }
+       
     }
 
     return (

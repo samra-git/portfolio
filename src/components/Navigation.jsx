@@ -6,9 +6,9 @@ const Navigation = () => {
     return (
         <div className="navigation">
             <ul className='navigation-row'>
-                <NavLink to='/' className="nav-active ">
-                    <li>Accueil</li> </NavLink>
-                <NavLink to="/projets"><li>Projets</li></NavLink>
+                {/* <NavLink to='/' className="nav-active ">
+                    <li>Accueil</li> </NavLink> */}
+                <Link to="#projets"><li>Projets</li></Link>
                 <Link to="#compétences" ><li>Compétences</li></Link>
                 <Link to="#footer" ><li>Contact</li></Link>
 

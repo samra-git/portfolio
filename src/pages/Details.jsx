@@ -1,14 +1,20 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import data from '../data/data.json'
 import { motion } from 'framer-motion';
+import { IoMdArrowRoundBack } from "react-icons/io";
+
 
 const Details = () => {
     const [getCard, setGetCard] = useState([]);
+    const [back, setBack] = useState(false)
     const { id } = useParams();
+    const navigate = useNavigate();
 
     // console.log(images);
-
+    if (back === true) {
+        navigate('/')
+    }
 
     useEffect(() => {
         setGetCard(data)
@@ -23,8 +29,13 @@ const Details = () => {
     const technos = cardId && cardId.technos
 
     return (
-        <div className='details-container'>
-
+        <motion.div className='details-container'
+        initial={{ opacity:0}}
+    animate={{opacity:1}}
+    transition={{
+     ease:"linear",
+     delay:"0.1"}}>
+            <IoMdArrowRoundBack className='details-arrow' onClick={() => setBack(!back)} />
             <h1>{title}</h1>
             <div className='details-contain'>
                 <motion.img
@@ -49,7 +60,7 @@ const Details = () => {
             </div>
 
 
-        </div>
+        </motion.div>
     );
 };
 

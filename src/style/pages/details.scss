@@ -1,6 +1,6 @@
 .details-container {
     // display: flex;
-    margin: 100px;
+    margin: 50px;
     h1{
         font-size: 55px;
         padding-bottom: 50px;
@@ -22,5 +22,13 @@
     p {
         color: white;
 
+    }
+}
+
+.details-arrow{
+    cursor: pointer;
+    font-size: 40px;
+    &:hover{
+        opacity: 0.8;
     }
 }
