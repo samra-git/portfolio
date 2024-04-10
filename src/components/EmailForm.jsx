@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
+import { HiMiniXMark } from "react-icons/hi2";
+
 
 const EmailForm = () => {
     const [name, setName] = useState('');
@@ -38,7 +40,9 @@ const EmailForm = () => {
 
     return (
         <div className='emailForm-container'>
+            
              <form onSubmit={handleSubmit}  className='emailForm'>
+             <HiMiniXMark className='emailForm-mark'/>
             <input type="text"
                 placeholder='Nom'
                 value={name}

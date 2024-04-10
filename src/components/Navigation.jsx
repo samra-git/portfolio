@@ -10,6 +10,7 @@ const Navigation = () => {
                     <li>Accueil</li> </NavLink> */}
                 <Link to="#projets"><li>Projets</li></Link>
                 <Link to="#compétences" ><li>Compétences</li></Link>
+                <Link to="#compétences" ><li>À propos</li></Link>
                 <Link to="#footer" ><li>Contact</li></Link>
 
 

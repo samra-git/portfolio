@@ -24,7 +24,8 @@ function ProjetSlide() {
 
   return (
     < div className="projets">
-      <h1 id="projets">Projets</h1>
+      <h1 id="projets">Projets réalisés</h1>
+
       <Carousel>
         {projets.map((projet) => (
           <Link key={projet.id} to={`/projets/projet/${projet.id}`} className="carouselBox">

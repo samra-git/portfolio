@@ -8,6 +8,7 @@ import ProjetSlide from '../components/ProjetSlide';
 import { motion } from "framer-motion";
 import Header from '../layout/Header';
 import EmailForm from '../components/EmailForm';
+import Banner from '../components/Banner';
 
 
 const Home = () => {
@@ -21,9 +22,10 @@ const Home = () => {
     }}
     
     ><Header />
-      <Apropos />
+    <Banner />
       <ProjetSlide />
       <Competences />
+      <Apropos />
       <EmailForm />
     </motion.div>
 

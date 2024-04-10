@@ -8,7 +8,7 @@ const Competences = () => {
 
     return (
         <div className='competences' id="compétences">
-            <h1>Compétences</h1>
+            <h1>Compétences acquises</h1>
             <h2>hard skills</h2>
             <div className='competences-contain'>
                 {extendedSkills.map((item, index) => (

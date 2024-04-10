@@ -14,13 +14,15 @@ const Header = () => {
     const scrollFunction = () => {
         const header = document.querySelector(".header");
         if (header) {
-            if (window.scrollY > 850) {
-                header.style.top = "-120px";
+            if (window.scrollY > 200) {
+                header.style.top = "0px";
                 header.style.transition = "600ms"
+            
             } else {
-                header.style.top = "0";
+                header.style.top = "-120";
                 header.style.transition = "600ms";
             }
+        
         }
        
     }
