@@ -1,23 +1,18 @@
 .details-container {
-    // display: flex;
+    position: relative;
     margin: 50px;
     h1{
         font-size: 55px;
         padding-bottom: 50px;
     }
 
-    img {
-        width: 400px;
-        border-radius: 5px;
-        height: 200px;
-        object-fit: cover;
-    }
 }
 
 .details-contain {
+    position: relative;//off
     display: flex;
-    justify-content: space-between;
-    gap: 100px;
+    // justify-content: space-between;
+    gap: 50px;
 
     p {
         color: white;
@@ -25,10 +20,27 @@
     }
 }
 
+// .details-carrousel{
+//     width: 40%;
+//     position: relative;
+//     img{
+//         width: 100%;
+//         height: auto;
+//         border-radius: 5px;
+//         object-fit: cover;
+//     }
+// }
+
 .details-arrow{
     cursor: pointer;
     font-size: 40px;
     &:hover{
         opacity: 0.8;
     }
+}
+
+.details-arrowRight{
+    position: absolute;
+    top: 0;
+    right: 80px;;
 }

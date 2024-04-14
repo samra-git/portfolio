@@ -18,7 +18,7 @@ const Home = () => {
     animate={{opacity:1}}
     transition={{
      ease:"linear",
-     delay:"0.1"
+     delay:"0.1", duration:"1"
     }}
     
     ><Header />

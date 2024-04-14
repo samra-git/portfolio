@@ -5,6 +5,10 @@
     // width: 300px;
     align-items: center;
     // background-color: #fff;
+    margin-bottom: 50px;
+    padding: 50px;
+    background-color: rgba(242, 224, 202, 1);
+
 }
 
 .emailForm {
@@ -20,9 +24,10 @@
     input,
     textarea,
     button {
-        border-radius: 5px;
-        padding: 5px;
+        // border-radius: 5px;
+        padding: 10px;
         border: none;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     }
 
     button {

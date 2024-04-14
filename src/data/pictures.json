@@ -1,0 +1,64 @@
+[
+    {
+        "id": "projet_1",
+        "pictures": [
+            "src/assets/booki/allDeviceBooki.jpg",
+            "src/assets/booki/emile-guillemot.jpg",
+            "src/assets/booki/florian-wehde.jpg"
+        ]
+    },
+    {
+        "id": "projet_2",
+        "pictures": [
+            "src/assets/booki/allDeviceBooki.jpg",
+            "src/assets/booki/emile-guillemot.jpg",
+            "src/assets/booki/florian-wehde.jpg"
+        ]
+    },
+    {
+        "id": "projet_3",
+        "pictures": [
+            "src/assets/booki/allDeviceBooki.jpg",
+            "src/assets/booki/emile-guillemot.jpg",
+            "src/assets/booki/florian-wehde.jpg"
+        ]
+    },
+    {
+        "id": "projet_4",
+        "pictures": [
+            "src/assets/booki/allDeviceBooki.jpg",
+            "src/assets/booki/emile-guillemot.jpg",
+            "src/assets/booki/florian-wehde.jpg"
+        ]
+    },
+    {
+        "id": "projet_5",
+        "pictures": [
+            "src/assets/booki/allDeviceBooki.jpg",
+            "src/assets/booki/emile-guillemot.jpg",
+            "src/assets/booki/florian-wehde.jpg"
+        ]
+    },
+    {
+        "id": "projet_6",
+        "pictures": [
+            "src/assets/booki/allDeviceBooki.jpg",
+            "src/assets/booki/emile-guillemot.jpg",
+            "src/assets/booki/florian-wehde.jpg"
+        ]
+    },
+   
+    {
+        "id": "projet_7"
+        
+
+    },
+     {
+        "id": "projet_8",
+        "pictures": [
+            "src/assets/booki/allDeviceBooki.jpg",
+            "src/assets/booki/emile-guillemot.jpg",
+            "src/assets/booki/florian-wehde.jpg"
+        ]
+    }
+]

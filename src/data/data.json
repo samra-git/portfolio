@@ -3,64 +3,99 @@
     {
         "id":"1",
         "title":"Booki",
-        "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/bookiWebp.webp",
+        "cover": "src/assets/booki/booki1.png",
         "description": "Intégrer l'interface responsive d'un site d'une agence de voyage, en utilisant HTML et CSS, à partir d'une maquettte sur Figma.",
         "github":"https://github.com/samra-git/P3-booki.git",
         "link":"https://samra-git.github.io/P3-booki/",
-        "technos":"HTML, CSS, Figma"
+        "technos":"HTML, CSS, Figma",
+        "pictures": [
+            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+            "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg"
+        ]
     },
     {
         "id":"2",
         "title":"Ohmyfood",
-        "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/ohmyfood600w.webp",
+        "cover": "src/assets/ohmyfood/ohmyfood_cover.jpg",
         "description": "ohmyfood...",
         "github": "https://github.com/samra-git/P4_ohmyfood.git",
         "link":"https://samra-git.github.io/P4_ohmyfood/",
-        "technos":"Sass"
+        "technos":"Sass",
+        "pictures": [
+            "../src/assets/booki/allDeviceBooki.jpg",
+            "src/assets/booki/emile-guillemot.jpg",
+            "src/assets/booki/florian-wehde.jpg"
+        ]
     },
     {
         "id":"3",
         "title":"Sophie Bluel",
-        "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/sophieBluelW.webp",
+        "cover": "src/assets/sophie_bluel/sophie_bluel_cover.png",
         "description": "sBluel...",
         "github":"https://github.com/samra-git/sophie_bluel_P6.git",
         "link":"https://samra-git.github.io/sophie_bluel_P6/FrontEnd/index.html",
-        "technos":"javascript"
+        "technos":"javascript",
+        "pictures": [
+            "src/assets/booki/allDeviceBooki.jpg",
+            "src/assets/booki/emile-guillemot.jpg",
+            "src/assets/booki/florian-wehde.jpg"
+        ]
     },
     {
         "id":"4",
         "title":"kasa",
-        "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/kasaW.webp",
+        "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
         "description": "kasa...",
         "github":"https://github.com/samra-git/kasa_p8.git",
         "link":"https://kasa-oc-p8.netlify.app/",
-        "technos":"react"
+        "technos":"react",
+        "pictures": [
+            "src/assets/booki/allDeviceBooki.jpg",
+            "src/assets/booki/emile-guillemot.jpg",
+            "src/assets/booki/florian-wehde.jpg"
+        ]
+
     },
     { 
         "id":"5",
          "title":"Nina Carducci",
-        "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/ninaW.webp",
+        "cover": "src/assets/nina_carducci/nina_cover.png",
         "description": "ninaC...",
         "github":"https://github.com/samra-git/P9_Nina_carducci.git",
         "link":"https://samra-git.github.io/P9_Nina_carducci/",
-        "technos":"Seo"
+        "technos":"Seo",
+        "pictures": [
+            "src/assets/booki/allDeviceBooki.jpg",
+            "src/assets/booki/emile-guillemot.jpg",
+            "src/assets/booki/florian-wehde.jpg"
+        ]
     },
     {
         "id":"6",
         "title": "724events",
-        "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/724eW.webp",
+        "cover": "src/assets/724events/724_cover.png",
         "description": "724events...",
         "github":"https://github.com/samra-git/P10_974events.git",
         "link":"https://724-events-oc.netlify.app/",
-        "technos":"debug"
+        "technos":"debug",
+        "pictures": [
+            "src/assets/booki/allDeviceBooki.jpg",
+            "src/assets/booki/emile-guillemot.jpg",
+            "src/assets/booki/florian-wehde.jpg"
+        ]
     },
     {
         "id":"7",
         "title":"ArgentBank",
-        "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/argentbankW.webp",
+        "cover": "src/assets/argent_bank/argent_cover.webp",
         "description": "argentBank...",
         "github":"https://github.com/samra-git/ArgentBank-website.git",
         "link":"",
-        "technos":"redux"
+        "technos":"redux","pictures": [
+            "src/assets/booki/allDeviceBooki.jpg",
+            "src/assets/booki/emile-guillemot.jpg",
+            "src/assets/booki/florian-wehde.jpg"
+        ]
     }
 ]

@@ -42,7 +42,7 @@ const EmailForm = () => {
         <div className='emailForm-container'>
             
              <form onSubmit={handleSubmit}  className='emailForm'>
-             <HiMiniXMark className='emailForm-mark'/>
+             {/* <HiMiniXMark className='emailForm-mark'/> */}
             <input type="text"
                 placeholder='Nom'
                 value={name}
@@ -60,6 +60,7 @@ const EmailForm = () => {
             <textarea
                 cols="30"
                 rows="10"
+                placeholder='Message'
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}>
             </textarea>

@@ -32,7 +32,7 @@ const Header = () => {
             <div className='header-row'>
                 <div className='header-logo'>
                    <img src={logo} alt="" />
-                <h1 className='header-title'>Développeuse Web</h1> 
+                {/* <h1 className='header-title'>Développeuse Web</h1>  */}
                 </div>
                 <Navigation />
             </div>

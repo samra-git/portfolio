@@ -6,6 +6,8 @@ import Header from './layout/Header';
 import Footer from './layout/Footer';
 import Projets from './pages/Projets';
 import Details from './pages/Details';
+// import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+
 
 const App = () => {
     return (
