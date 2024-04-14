@@ -12,7 +12,7 @@ const DetailsCarousel = ({ pictures }) => {
 
     // const images = [coverBooki, coverBooki, coverBooki];
     return (
-        <Carousel autoPlay interval={4000} infiniteLoop showStatus={false} >
+        <Carousel autoPlay interval={4000} infiniteLoop showStatus={false}showIndicators={false} >
 {pictures && pictures.map((picture, index) => (
 
      <div key={index}>

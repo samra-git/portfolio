@@ -12,6 +12,7 @@
     position: relative;//off
     display: flex;
     // justify-content: space-between;
+    align-items: baseline;
     gap: 50px;
 
     p {
@@ -20,16 +21,11 @@
     }
 }
 
-// .details-carrousel{
-//     width: 40%;
-//     position: relative;
-//     img{
-//         width: 100%;
-//         height: auto;
-//         border-radius: 5px;
-//         object-fit: cover;
-//     }
-// }
+.details-carousel{
+    max-width: 50%;
+    // position: relative;
+    
+}
 
 .details-arrow{
     cursor: pointer;

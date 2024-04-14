@@ -7,6 +7,8 @@
     gap:10px;
     width: 100%;
     margin-top: 200px;
+    background-color: #56462ead;
+    color: white;
 
     
 
@@ -40,7 +42,7 @@
             border-radius: 50%;
             z-index: -1;
             opacity: 0.7;
-            filter: sepia(0.7)
+            filter: sepia(0.5)
            
         }
         .apropos-text{

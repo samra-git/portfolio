@@ -1,16 +1,6 @@
 .navigation {
-  // position: absolute;
-  top: 1rem;
-  left: 1.4rem;
-  font-size: 1.4rem;
   line-height: 28px;
-  // color: rgb(228, 204, 204);
-  font-family: 'Pierce Jameson', cursive;
-
-  li {
-    font-size: 25px;
-
-  }
+ 
 
   .navigation-row {
     display: flex;
@@ -18,10 +8,6 @@
 
     li {
       font-size: 20px;
-    }
-
-    &:hover {
-      // transform: scale(1.2);
     }
 
     .navigation-display {
@@ -33,20 +19,13 @@
         display: none;
       }
       
-     
-
+    
     }
 
-
-
-    .menu-responsive span {
-     width: 30px;
-      height: 3px;
-      border-radius: 5px;
-      background-color: #4c3e2c;
+    .menu-responsive, .menu-col  {
+     
       display: none;
-      margin-top: 3px;
-
+     
       @media(max-width:768px) {
         display: flex;
         cursor: pointer;
@@ -56,19 +35,31 @@
 
     }
     .menu-col{
-      position: relative;
+      position: absolute;
+      visibility: hidden;
+      top:30px;
+      right: 20px;
       display: flex;
       flex-direction: column;
-      // gap: 10px;
-      &:hover{
-        transform: none;
+      background-color: white;
+      padding: 10px;
+      border-radius: 5px;
+      gap: 10px;
+      @media(max-width:768px) {
+       visibility: visible;
+        cursor: pointer;
       }
+      
 
       .nav-mark{
         position: absolute;
         top: 0;
         right: 0;
         margin-left: 10px;
+      }
+
+      .navigation-responsive-link{
+        margin-right: 100px;
       }
       
     }

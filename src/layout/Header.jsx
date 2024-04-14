@@ -14,7 +14,7 @@ const Header = () => {
     const scrollFunction = () => {
         const header = document.querySelector(".header");
         if (header) {
-            if (window.scrollY > 200) {
+            if (window.scrollY > 250) {
                 header.style.top = "0px";
                 header.style.transition = "600ms"
             

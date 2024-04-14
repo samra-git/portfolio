@@ -62,9 +62,11 @@ const Details = () => {
             <h5 className='details-arrowRight'>tous les projets</h5><IoMdArrowRoundForward className='details-arrow details-arrowRight' />
             <h1>{title}</h1>
             <div className='details-contain'>
-                <div className='details-carrousel'/>
-               
+               <div className='details-carousel'>
                 <DetailsCarousel pictures={slides} />
+               </div>
+               
+                
                
                
                 <div>
