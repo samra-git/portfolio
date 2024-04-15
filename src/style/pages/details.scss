@@ -1,6 +1,7 @@
 .details-container {
     position: relative;
-    margin: 20px;
+    margin: 20px 50px;
+    padding: 20px;
     
     h1{
         font-size: 55px;
@@ -14,9 +15,9 @@
 .details-contain {
     // position: relative;//off
     display: flex;
-    // justify-content: space-between;
+    justify-content: space-between;
     align-items: baseline;
-    gap: 100px;
+    // gap: 100px;
     // max-height: 600px;
 
     p {
@@ -34,6 +35,9 @@
 }
 
 .details-arrow{
+    position: absolute;
+    top: 10px;
+    left: 20px;
     cursor: pointer;
     font-size: 40px;
     &:hover{
