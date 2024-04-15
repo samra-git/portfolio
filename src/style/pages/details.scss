@@ -1,28 +1,34 @@
 .details-container {
     position: relative;
-    margin: 50px;
+    margin: 20px;
+    
     h1{
         font-size: 55px;
-        padding-bottom: 50px;
+        text-align: center;
+        opacity: 0.5;
+        // padding-bottom: 50px;
     }
 
 }
 
 .details-contain {
-    position: relative;//off
+    // position: relative;//off
     display: flex;
     // justify-content: space-between;
     align-items: baseline;
-    gap: 50px;
+    gap: 100px;
+    // max-height: 600px;
 
     p {
-        color: white;
+        color: black;
 
     }
 }
 
 .details-carousel{
-    max-width: 50%;
+    max-width: 30%;
+    // max-height: 20%;
+   
     // position: relative;
     
 }
@@ -35,8 +41,8 @@
     }
 }
 
-.details-arrowRight{
-    position: absolute;
-    top: 0;
-    right: 80px;;
-}
+// .details-arrowRight{
+//     position: absolute;
+//     top: 0;
+//     right: 80px;;
+// }

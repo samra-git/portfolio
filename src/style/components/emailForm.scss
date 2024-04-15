@@ -30,20 +30,19 @@
     textarea,
     button {
         // width: 100%;
-        // border-radius: 5px;
+        border-radius: 5px;
         padding: 10px;
         border: none;
-        background-color: transparent;
+        background-color: white;
         border: 1px solid white;
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
         // color: white;
     }
-    placeholder{
-color: white;
-    }
+    
 
     button {
         cursor: pointer;
+        font-weight: bold;
 
         &:hover {
             opacity: 0.8;

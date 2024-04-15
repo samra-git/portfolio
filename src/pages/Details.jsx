@@ -59,7 +59,7 @@ const Details = () => {
                 delay: "0.1"
             }}>
             <IoMdArrowRoundBack className='details-arrow' onClick={() => setBack(!back)} />
-            <h5 className='details-arrowRight'>tous les projets</h5><IoMdArrowRoundForward className='details-arrow details-arrowRight' />
+            
             <h1>{title}</h1>
             <div className='details-contain'>
                <div className='details-carousel'>

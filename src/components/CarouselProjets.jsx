@@ -49,7 +49,7 @@ const Carousel = (props) => {
     }
 
     return(
-        <div className="carousel">   
+        <div className="carouselProjets">   
            <div className="box">
                 {props.children}
             </div>
