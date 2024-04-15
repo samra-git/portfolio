@@ -88,14 +88,14 @@
     {
         "id":"7",
         "title":"ArgentBank",
-        "cover": "src/assets/argent_bank/argent_cover.webp",
+        "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/argent_bank/argent_cover.webp",
         "description": "argentBank...",
         "github":"https://github.com/samra-git/ArgentBank-website.git",
         "link":"",
         "technos":"redux","pictures": [
-            "src/assets/booki/allDeviceBooki.jpg",
-            "src/assets/booki/emile-guillemot.jpg",
-            "src/assets/booki/florian-wehde.jpg"
+            "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/argent_bank/argent_bank.webp",
+            "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/argent_bank/argent_bank1.webp",
+            "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/argent_bank/argent_bank2.webp"
         ]
     }
 ]

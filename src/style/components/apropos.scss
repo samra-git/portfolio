@@ -9,6 +9,9 @@
     margin-top: 200px;
     background-color: #56462ead;
     color: white;
+    @media (max-width:820px){
+        // max-width: 820px;
+    }
 
     
 
@@ -51,11 +54,12 @@
     }
 
     .apropos-image{
+        // max-width: 150px;
         width: 50%;
         padding: 0px;
         // perspective :800px;
         img{
-            width: 400px;
+            // width: 400px;
             height: 400px;
             object-fit: cover;
             border-radius: 10px;
@@ -63,14 +67,14 @@
             box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #0004);
 
-            &:hover{
-                // transform: rotate(0);
-                // transition: 0.8s ease-in-out;
-                box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
-            }
-            @media(max-width:1024px) {
-                width: 200px;
-                height: 200px;
+            // &:hover{
+            //     // transform: rotate(0);
+            //     // transition: 0.8s ease-in-out;
+            //     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+            // }
+            @media(max-width:820px) {
+                // max-width: 150px;
+                max-height: 150px;
             }
             
         }

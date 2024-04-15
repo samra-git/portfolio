@@ -18,6 +18,11 @@
         transition: 0.2s;
         padding-top: 50px;
 
+        @media(max-width: 768px) {
+            font-size: 15px;
+            padding: 10px;
+        }
+
     }
 }
 
@@ -35,22 +40,12 @@
 .banner-title {
     color: white;
     // text-align: center;
-    // padding: 0 50px;
+    padding: 0 30px;
     font-size: 30px;
 
-    @media(max-width:1020px) {
-        font-size: 30px;
-
-    }
-
-
-
-
-    @media(max-width: 840px) {
+    @media(max-width:768px) {
+        font-size: 25px;
         top: 130px;
-
     }
-
-
 
 }

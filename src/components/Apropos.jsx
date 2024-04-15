@@ -33,7 +33,7 @@ const Apropos = () => {
 
 
             </motion.div>
-            <motion.div
+            {/* <motion.div
                 className="apropos-image"
 
             >
@@ -44,8 +44,9 @@ const Apropos = () => {
                         perspective: 800,
 
                     }}
-                    src={image} alt="photo d'un ordinateur sur un bureau" />
-            </motion.div>
+                    src={image} alt="photo d'un ordinateur sur un bureau"
+                     />
+            </motion.div> */}
 
 
         </div>
