@@ -40,7 +40,7 @@ const EmailForm = () => {
     }
 
     return (
-        <div className='emailForm-container'>
+        <div className='emailForm-container' id="form" >
            
 
             <form onSubmit={handleSubmit} className='emailForm'>

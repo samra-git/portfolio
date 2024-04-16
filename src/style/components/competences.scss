@@ -21,6 +21,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
+   text-align: center;
    gap: 20px;
    color: white;
    background-color: #312617ad;
@@ -43,6 +44,57 @@
    scroll-snap-align: center;
 }
 
+.softsKills-slide {
+   margin-top: 80px;
+
+
+   li {
+      display: inline-block;
+      animation: slide2 20s infinite linear;
+      border: 2px solid grey;
+      padding: 20px;
+      border-radius: 50%;
+      text-align: center;
+      width: 6.5em;
+
+      
+      &:nth-child(1) {
+         background-color: rgb(255, 38, 0);
+         animation-duration: 20s;
+      }
+      &:nth-child(2) {
+         background-color: aqua;
+         animation-duration: 22s;
+      }
+      &:nth-child(3) {
+         background-color: yellow;
+         animation-duration: 23s;
+      }
+      &:nth-child(4) {
+         background-color: pink;
+         animation-duration: 24s;
+      }
+      &:nth-child(5) {
+         background-color: blueviolet;
+         animation-duration: 25s;
+      }
+      &:nth-child(6) {
+        background-color: chartreuse;
+        animation-duration: 26s;
+      }
+      &:nth-child(7) {
+        background-color: rgb(0, 94, 255);
+        animation-duration: 27s;
+      }
+      &:nth-child(8) {
+        background-color: rgb(255, 196, 0);
+        animation-duration: 28s;
+      }
+   }
+
+
+}
+
 .logo-slide {
    display: inline-block;
    animation: slide 10s infinite linear;
@@ -56,74 +108,76 @@
 }
 
 
-.softsKills {
-   position: relative;
-   margin-top: 80px;
-   // opacity: 0.9;
+.softsKills {}
 
-   li {
-      position: absolute;
-      border: 2px solid grey;
-      padding: 20px;
-      border-radius: 50%;
+// .softsKills {
+//    position: relative;
+//    margin-top: 80px;
+//    // opacity: 0.9;
 
-     
-      &:nth-child(1) {
-         top: 5px;
-         left: 60px;
-         background-color: rgb(255, 38, 0);
-      }
-      
-      &:nth-child(2) {
-         top: 37px; // Ajustez selon vos besoins
-         left: 200px; // Ajustez selon vos besoins
-         background-color: aqua;
-
-      }
-      &:nth-child(3) {
-         top: 75px; // Ajustez selon vos besoins
-         left: 60px; // Ajustez selon vos besoins
-         background-color: yellow;
-      }
-      &:nth-child(4) {
-         top: 75px; // Ajustez selon vos besoins
-         right: 60px; // Ajustez selon vos besoins
-         background-color: pink;
-      }
-      &:nth-child(5) {
-         top: 5px; // Ajustez selon vos besoins
-         right:  60px; // Ajustez selon vos besoins
-         background-color: blueviolet;
-      }
-      &:nth-child(6) {
-         top: 40px; // Ajustez selon vos besoins
-        right: 60px; // Ajustez selon vos besoins
-        background-color: chartreuse;
-      }
-
-      @media(max-width: 768px) {
-         position: static;
-         display: inline-block;
-         margin-right: 10px;
-      }
+//    li {
+//       position: absolute;
+//       border: 2px solid grey;
+//       padding: 20px;
+//       border-radius: 50%;
 
 
+//       &:nth-child(1) {
+//          top: 5px;
+//          left: 60px;
+//          background-color: rgb(255, 38, 0);
+//       }
 
-   }
+//       &:nth-child(2) {
+//          top: 37px; // Ajustez selon vos besoins
+//          left: 200px; // Ajustez selon vos besoins
+//          background-color: aqua;
 
-   h3 {
-      position: absolute;
-      top: 30px;
-      left: 550px;
-      border: 3px solid black;
-      border-radius: 50%;
-      padding: 20px;
+//       }
+//       &:nth-child(3) {
+//          top: 75px; // Ajustez selon vos besoins
+//          left: 60px; // Ajustez selon vos besoins
+//          background-color: yellow;
+//       }
+//       &:nth-child(4) {
+//          top: 75px; // Ajustez selon vos besoins
+//          right: 60px; // Ajustez selon vos besoins
+//          background-color: pink;
+//       }
+//       &:nth-child(5) {
+//          top: 5px; // Ajustez selon vos besoins
+//          right:  60px; // Ajustez selon vos besoins
+//          background-color: blueviolet;
+//       }
+//       &:nth-child(6) {
+//          top: 40px; // Ajustez selon vos besoins
+//         right: 60px; // Ajustez selon vos besoins
+//         background-color: chartreuse;
+//       }
 
-      @media(max-width: 768px) {
-         position: static;
-         margin-top: 20px;
-      }
-   }
+//       @media(max-width: 768px) {
+//          position: static;
+//          display: inline-block;
+//          margin-right: 10px;
+//       }
 
-  
-}
+
+
+//    }
+
+//    h3 {
+//       position: absolute;
+//       top: 30px;
+//       left: 550px;
+//       border: 3px solid black;
+//       border-radius: 50%;
+//       padding: 20px;
+
+//       @media(max-width: 768px) {
+//          position: static;
+//          margin-top: 20px;
+//       }
+//    }
+
+
+// }

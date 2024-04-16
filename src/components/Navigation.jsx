@@ -21,8 +21,8 @@ const Navigation = () => {
                 <div className='navigation-display'  >
                     <Link to="#projets"><li>Projets</li></Link>
                     <Link to="#compétences" ><li>Compétences</li></Link>
-                    <Link to="#compétences" ><li>À propos</li></Link>
-                    <Link to="#footer" ><li>Contact</li></Link>
+                    <Link to="#apropos" ><li>À propos</li></Link>
+                    <Link to="#form" ><li>Contact</li></Link>
                 </div>
 
                 <div >

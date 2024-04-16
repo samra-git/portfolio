@@ -30,17 +30,19 @@ const Competences = () => {
                     ))}
                 </div>
                 {/* <h2 soft-title>Soft skills</h2> */}
-                <div className='softsKills'>
+                <div className='softsKills competences-contain'>
                       {/* <SoftKills /> */}
-                <ul>
+                <ul  className='softsKills-slide'>
                 
                     <li>Esprit d'équipe exceptionnel</li>
-                    <li>Sens de l'initiative innovant</li>
+                    <li>Sens de l'initiative</li>
                     <li>Adaption rapide aux différentes situations</li>
-                    <li>Organisation/gestion de projet (méthodes agiles)</li>
+                    <li>Organisation (méthodes agiles)</li>
                     <li>Flexibilité</li>
-                    <li>Patience et persévérance</li>
-                     <h3>Soft Skills</h3>
+                    <li>Gestion de projet(kanban)</li>
+                    <li>Patience </li>
+                    <li>Persévérance</li>
+                     {/* <h3>Soft Skills</h3> */}
                 </ul>
                 </div>
               

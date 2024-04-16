@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, Link } from 'react-router-dom';
 import data from '../data/data.json'
 import { motion } from 'framer-motion';
 import { IoMdArrowRoundBack, IoMdArrowRoundForward } from "react-icons/io";
@@ -18,13 +18,13 @@ const Details = () => {
     const navigate = useNavigate();
 // console.log(picture);
    
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
-    };
+    // const settings = {
+    //     dots: true,
+    //     infinite: true,
+    //     speed: 500,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1
+    // };
 
     // console.log(images);
     if (back === true) {
@@ -58,7 +58,10 @@ const Details = () => {
                 ease: "linear",
                 delay: "0.1"
             }}>
-            <IoMdArrowRoundBack className='details-arrow' onClick={() => setBack(!back)} />
+            {/* <IoMdArrowRoundBack className='details-arrow' onClick={() => setBack(!back)} /> */}
+            <Link to="/#projets" >
+                <IoMdArrowRoundBack className='details-arrow' />
+                </Link>
             
             <h1>{title}</h1>
             <div className='details-contain'>

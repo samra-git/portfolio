@@ -15,16 +15,43 @@ display: flex;
 justify-content: center;
 align-items: center;
 // min-height: 90vh;
+height: auto;
 
+.slide img{
+    height: 200px;
+    // width: 250px;
+    object-fit: contain;
+    border-radius: 5px;
+
+}
    
-    img{
-        border-radius: 5px;
-    }
+   li img{
+        // width: 50px;
     
 
+    
+    }
+
+    // button {
+    //     // height: auto;
+    // }
+   
+    .thumb-wrapper {
+        // width: 20px;
+
+    }
+    li .thumb {
+        // width: 30px;
+    }
+    .thumb {
+        // width: 0px;
+        height: 40px;
+    
+    
+    }
+    .thumbs {
+        // width: 50px;
+    }
+
 }
 
-.thumb{
-
-
-}
