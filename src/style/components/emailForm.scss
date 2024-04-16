@@ -1,14 +1,15 @@
 .emailForm-container {
     display: flex;
- justify-content: center;
+    // justify-content: center;
     // align-items: center;
     max-width: 1440px;
     // width: 100%;
-    
+
     margin-bottom: 50px;
     padding: 50px;
-    // background: url('./coucher_de_soleil.jpg') center/cover;
-    // background-color: rgba(255, 255, 255, 0.8)
+    background: url('./image1.jpg') center/cover;
+
+    // background-: rgba(255, 255, 255, 0.5)
     // opacity: 0.8;
     // background-color: rgba(242, 224, 202, 1);
 
@@ -38,7 +39,7 @@
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
         // color: white;
     }
-    
+
 
     button {
         cursor: pointer;
@@ -52,12 +53,11 @@
 }
 
 .emailForm-image {
+
     // width:30%;
     // padding-left: 40px;
     // max-height: 100px;
-    img{
+    img {
         width: 100%;
     }
 }
-
-

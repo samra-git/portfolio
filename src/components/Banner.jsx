@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import banner from '../assets/background/route.jpg';
+import banner from '../assets/background/route.webp';
 import { motion } from 'framer-motion';
 
 

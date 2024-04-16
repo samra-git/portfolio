@@ -32,7 +32,7 @@
 
     }
 
- h1{
+    .projet-title h1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +41,7 @@
     // padding-top: 10px;
 
     // border-top: 2px solid #61524000;
-    text-align: center;
+    // text-align: center;
     background-color: #56462ead;
     color: white;
     padding: 20px 100px;
@@ -75,7 +75,7 @@
     height: 100%;
     transform-origin: center;
     transform-style: preserve-3d;
-    -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.039));
+    -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.39));
 
 
 
