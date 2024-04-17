@@ -2,7 +2,7 @@ import React from 'react';
 import image from '../assets/heroImage.jpg';
 import { motion } from 'framer-motion';
 import moi from '../assets/moi/moi.png'
-import icon from '../assets/logos/icon-projet.png'
+import icon from '../../public/logos/icon-projet.png'
 
 const Apropos = () => {
     return (

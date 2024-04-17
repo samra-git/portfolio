@@ -1,7 +1,7 @@
 // import React from 'react';
 import { useEffect } from 'react';
 import Navigation from '../components/Navigation';
-import logo from '../assets/logos/icon2.png'
+import logo from '../../public/logos/icon2.png'
 
 const Header = () => {
 
