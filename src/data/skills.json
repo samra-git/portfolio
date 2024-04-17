@@ -27,7 +27,7 @@
     {
         "id": 6,
         "logo":"/logos/mongodb.png",
-        "title":"MangoDB"
+        "title":"MongoDB"
     },
     {
         "id": 7,
@@ -38,5 +38,10 @@
         "id": 8,
         "logo":"/logos/github.png",
         "title":"Github"
+    },
+    {
+        "id": 9,
+        "logo":"/logos/figma.png",
+        "title":"Figma"
     }
 ]

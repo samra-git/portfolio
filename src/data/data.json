@@ -5,7 +5,7 @@
         "id":"2",
         "title":"Ohmyfood",
         "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/ohmyfood/ohmyfood_coverW.webp",
-        "description": "ohmyfood...",
+        "description": "Pour ce projet, une nouvelle stack est demandée pour le réaliser. La découverte de Sass permet de se rendre compte des capacités déployées du CSS3 notament sur  les animations.",
         "github": "https://github.com/samra-git/P4_ohmyfood.git",
         "link":"https://samra-git.github.io/P4_ohmyfood/",
         "technos":"Sass",
@@ -19,7 +19,7 @@
         "id":"3",
         "title":"Sophie Bluel",
         "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/sophie_bluel/sophie_bluel_coverW.webp",
-        "description": "sBluel...",
+        "description": "Très gros projet de la formation, avec la découverte de Javascript. Réalisation dynamique du site à partir d'un site statique. Ce projet permet de s'initier aux appels API avec utilisation du Swagger, création d'un formulaire, modale...",
         "github":"https://github.com/samra-git/sophie_bluel_P6.git",
         "link":"https://samra-git.github.io/sophie_bluel_P6/FrontEnd/index.html",
         "technos":"javascript",
@@ -33,10 +33,10 @@
         "id":"4",
         "title":"kasa",
         "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-        "description": "kasa...",
+        "description": "8ème projet de la formation et 1er projet avec React avec la découverte de sa librairie et ses frameworks. Projet dont la mission est la refonte d'un site de location immobilière.",
         "github":"https://github.com/samra-git/kasa_p8.git",
         "link":"https://kasa-oc-p8.netlify.app/",
-        "technos":"react",
+        "technos":"React",
         "pictures": [
             "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/kasa/kasa1.webp",
             "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/kasa/kasa2.webp",
@@ -48,7 +48,7 @@
         "id":"5",
          "title":"Nina Carducci",
         "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/nina_carducci/nina_cover.webp",
-        "description": "ninaC...",
+        "description": "Nina Carducci est le site d'une protographe voulant améliorer son référencement et l'accessibilité. L'optimisation du référencement (SEO) et de l'accessibilité sont des compétences cruciales dans le développement web.  ",
         "github":"https://github.com/samra-git/P9_Nina_carducci.git",
         "link":"https://samra-git.github.io/P9_Nina_carducci/",
         "technos":"Seo",
@@ -62,7 +62,7 @@
         "id":"6",
         "title": "724events",
         "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/724events/724_cover.webp",
-        "description": "724events...",
+        "description": "La mission est de débugger le site d'une agence événementielle, par le biais de l'utilisation des outils de débogage tel que React Developper Tool",
         "github":"https://github.com/samra-git/P10_974events.git",
         "link":"https://724-events-oc.netlify.app/",
         "technos":"debug",
@@ -76,7 +76,7 @@
         "id":"7",
         "title":"ArgentBank",
         "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/argent_bank/argent_cover.webp",
-        "description": "argentBank...",
+        "description": "",
         "github":"https://github.com/samra-git/ArgentBank-website.git",
         "link":"",
         "technos":"redux","pictures": [
@@ -86,10 +86,24 @@
         ]
     },
     {
+        "id":"8",
+        "title":"Portfolio",
+        "cover": "./portfolio_cover.webp",
+        "description": "argentBank...",
+        "github":"https://github.com/samra-git/ArgentBank-website.git",
+        "link":"",
+        "technos":"redux",
+        "pictures": [
+            "/portfolio_cover.webp",
+            "/portfolio1.png"
+           
+        ]
+    },
+    {
         "id":"1",
         "title":"Booki",
         "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/booki/booki1W.webp",
-        "description": "Intégrer l'interface responsive d'un site d'une agence de voyage, en utilisant HTML et CSS, à partir d'une maquettte sur Figma.",
+        "description": "Premier projet de la formation, dont le but est d'intégrer l'interface responsive d'un site d'une agence de voyage, en utilisant HTML et CSS, à partir d'une maquettte sur Figma.",
         "github":"https://github.com/samra-git/P3-booki.git",
         "link":"https://samra-git.github.io/P3-booki/",
         "technos":"HTML, CSS, Figma",

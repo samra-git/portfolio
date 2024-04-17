@@ -17,7 +17,9 @@ const Carousel = (props) => {
 
     const responsiveDisplay = () => {
         let z;
-        if(window.innerWidth < 600)
+        if (window.innerWidth < 400)
+        z = 130;
+        else if(window.innerWidth < 600)
             z = 190;
         else if(window.innerWidth < 820)
             z = 250;

@@ -6,6 +6,10 @@ import { IoMdArrowRoundBack, IoMdArrowRoundForward } from "react-icons/io";
 import Slider from 'react-slick';
 import DetailsCarousel from '../components/DetailsCarousel';
 import pictures from '../data/pictures.json'
+import { NavLink } from 'react-router-dom';
+import { MdHttp } from "react-icons/md";
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
+
 
 
 
@@ -16,8 +20,8 @@ const Details = () => {
     const { id } = useParams();
     // const { ID } = useParams();
     const navigate = useNavigate();
-// console.log(picture);
-   
+    // console.log(picture);
+
     // const settings = {
     //     dots: true,
     //     infinite: true,
@@ -38,7 +42,7 @@ const Details = () => {
         setPicture(pictures)
     })
 
-    
+
     const cardId = getCard.find((item) => item.id === id)
     // console.log((cardId));
     const title = cardId && cardId.title
@@ -47,6 +51,8 @@ const Details = () => {
     const description = cardId && cardId.description
     const technos = cardId && cardId.technos
     const slides = cardId && cardId.pictures
+    const github = cardId && cardId.github
+    const link = cardId && cardId.link
     console.log(slides);
     // console.log(slides);
 
@@ -61,17 +67,17 @@ const Details = () => {
             {/* <IoMdArrowRoundBack className='details-arrow' onClick={() => setBack(!back)} /> */}
             <Link to="/#projets" >
                 <IoMdArrowRoundBack className='details-arrow' />
-                </Link>
-            
+            </Link>
+
             <h1>{title}</h1>
             <div className='details-contain'>
-               <div className='details-carousel'>
-                <DetailsCarousel pictures={slides} />
-               </div>
-               
-                
-               
-               
+                <div className='details-carousel'>
+                    <DetailsCarousel pictures={slides} />
+                </div>
+
+
+
+
                 <div>
                     <motion.p
                         whileTap={{ scale: 1.2 }}>
@@ -80,6 +86,11 @@ const Details = () => {
                         <h4>Skills:</h4>
                         <p>{technos}</p>
                     </motion.div>
+                    <div>
+                        <a href={github} target="_blank" rel="noopener noreferrer">Code <FaArrowUpRightFromSquare /></a></div>
+                    <div>
+                        <a href={link} target="_blank" rel="noopener noreferrer">Site <FaArrowUpRightFromSquare /></a>
+                    </div>
                 </div>
 
             </div>

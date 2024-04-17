@@ -1,9 +1,28 @@
 // import React from 'react';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import Navigation from '../components/Navigation';
 import logo from '../../public/logos/icon2.png'
 
 const Header = () => {
+    const [isScrolled, setIsScrolled] = useState(false);
+
+// useEffect(() => {
+//         const handleScroll= () => {
+//             if(window.scrollY > 70) {
+//                 setIsScrolled(true)
+//             } else {
+//                 setIsScrolled(false)
+//             }
+//         }
+
+//         window.addEventListener("scroll", handleScroll);
+
+//         return () => {
+//           window.removeEventListener("scroll", handleScroll);
+//         };
+    
+//     }, []);
+
 
     useEffect(() => {
         window.onscroll = function () {
@@ -19,8 +38,9 @@ const Header = () => {
                 header.style.transition = "600ms"
             
             } else {
-                header.style.top = "-120";
-                header.style.transition = "600ms";
+                header.style.top = "-120px";
+                header.style.transition = "800ms";
+                // header.style.opacity = "0"
             }
         
         }
@@ -28,7 +48,8 @@ const Header = () => {
     }
 
     return (
-        <div className='header'>
+        <div>
+<div className='header'>
             <div className='header-row'>
                 <div className='header-logo'>
                    <img src={logo} alt="" />
@@ -39,6 +60,10 @@ const Header = () => {
 
 
         </div>
+             
+        </div>
+    
+       
     );
 };
 

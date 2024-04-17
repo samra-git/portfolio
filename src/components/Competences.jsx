@@ -12,7 +12,7 @@ const Competences = () => {
     return (
         <div className='competences' id="compétences">
             <div className='competences-title'>
-                <h1><RiCodeSFill />Compétences acquises<RiCodeSSlashFill /></h1>
+                <h1><RiCodeSFill />Skills<RiCodeSSlashFill /></h1>
             </div>
             <div>
 
@@ -31,21 +31,24 @@ const Competences = () => {
                 </div>
                 {/* <h2 soft-title>Soft skills</h2> */}
                 <div className='softsKills competences-contain'>
-                      {/* <SoftKills /> */}
-                <ul  className='softsKills-slide'>
-                
-                    <li>Esprit d'équipe exceptionnel</li>
-                    <li>Sens de l'initiative</li>
-                    <li>Adaption rapide aux différentes situations</li>
-                    <li>Organisation (méthodes agiles)</li>
-                    <li>Flexibilité</li>
-                    <li>Gestion de projet(kanban)</li>
-                    <li>Patience </li>
-                    <li>Persévérance</li>
-                     {/* <h3>Soft Skills</h3> */}
-                </ul>
+                    {/* <SoftKills /> */}
+                    <ul className='softsKills-slide'>
+
+                        <li>Esprit d'équipe</li>
+                        <li>Sens de l'initiative</li>
+                        <li>Adaption rapide</li>
+                        <li>méthodes agiles</li>
+                        <li>Flexibilité</li>
+                        <li>Gestion de projet (kanban)</li>
+                        <li>Patience </li>
+                        <li>Persévérance</li>
+                        <li>Référencement SEO</li>
+                        <li>Accessibilité</li>
+                        <li>Autonomie</li>
+                        {/* <h3>Soft Skills</h3> */}
+                    </ul>
                 </div>
-              
+
 
 
             </div>
