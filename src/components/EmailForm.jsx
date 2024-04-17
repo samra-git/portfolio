@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { HiMiniXMark } from "react-icons/hi2";
-// import image from '../assets/image1.jpg'
+import image from '/image1.jpg'
 
 
 const EmailForm = () => {
@@ -40,7 +40,7 @@ const EmailForm = () => {
     }
 
     return (
-        <div className='emailForm-container' id="form" >
+        <div className='emailForm-container' id="form"  style={{ backgroundImage: `url(${image})`}}  >
            
 
             <form onSubmit={handleSubmit} className='emailForm'>
