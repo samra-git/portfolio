@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "logo":"/src/assets/logos/html.png",
+        "logo":"https://github.com/samra-git/portfolio/blob/main/src/assets/logos/html.png",
         "title":"HTML"
     },
     {
