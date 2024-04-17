@@ -7,6 +7,10 @@
         font-size: 55px;
         text-align: center;
         opacity: 0.5;
+        @media(max-width:768px) {
+            font-size: 40px;
+          }
+     
         // padding-bottom: 50px;
     }
 
@@ -18,7 +22,13 @@
     justify-content: space-between;
     align-items: baseline;
     gap: 100px;
-    // max-height: 600px;
+    
+
+     @media(max-width: 768px) {
+        flex-direction: column;
+        gap: 0;
+     }
+
 
     p {
         color: black;
@@ -28,6 +38,11 @@
 
 .details-carousel{
     max-width: 30%;
+    
+    @media(max-width:768px) {
+       max-width: 100%;
+     }
+
     // max-height: 20%;
    
     // position: relative;
@@ -40,6 +55,10 @@
     left: 20px;
     cursor: pointer;
     font-size: 40px;
+    @media(max-width:768px) {
+        font-size: 30px;
+      }
+ 
     &:hover{
         opacity: 0.8;
     }

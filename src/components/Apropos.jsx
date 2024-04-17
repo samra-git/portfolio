@@ -6,7 +6,7 @@ import icon from '../../public/logos/icon-projet.png'
 
 const Apropos = () => {
     return (
-        <div className='apropos'  id="apropos">
+        <div className='apropos' id="apropos">
             <motion.div
                 // whileHover={{ scale: 1.2 }}
                 transition={{ duration: 0.8 }}
@@ -28,12 +28,14 @@ const Apropos = () => {
                     <p>
                         Après avoir exercé avec dévouement en tant qu'orthoptiste, plongée dans l'univers de la vision et ses mystères, j'ai ressenti un appel vers de nouveaux horizons. Ainsi, guidée par ma passion pour la santé et mon intérêt croissant pour l'informatique, j'ai entrepris une reconversion en tant que développeur web. Cette transition, loin d'être un abandon, représente pour moi une évolution naturelle et enrichissante de ma carrière, que je mène avec assurance et satisfaction.
                     </p>
-                    <p>De nouveaux horizons s'ouvrent à moi, et c'est avec optimisme que je souhaite développer mes capacités dans ce domaine</p>
-                    <p>Suite à une reconversion professionnelle, j'ai suivi mon instinct en me dirigeant naturellement vers les métiers du numérique, tout en conservant mes racines dans le domaine de la santé. En effet, après avoir exercé avec passion en tant qu'orthoptiste, métier dédié à la rééducation visuelle, j'ai découvert une nouvelle passion dans l'informatique. Ainsi, je poursuis mon chemin avec détermination, donnant vie à cette nouvelle facette de ma carrière sans aucun regret.</p>
-                    <p>Après avoir exercé avec dévouement en tant qu'orthoptiste, plongée dans l'univers de la rééducation visuelle, j'ai ressenti un appel vers de nouveaux horizons. Ainsi, guidée par ma passion pour la santé et mon intérêt croissant pour l'informatique, j'ai entrepris une reconversion vers les métiers du numérique. Cette transition, loin d'être un abandon, représente pour moi une évolution naturelle et enrichissante de ma carrière, que je mène avec assurance et satisfaction.</p>
-                    <p>
-                        Suite à une reconversion professionnelle, je me suis naturellement dirigée vers un métier du numérique. En effet,
-                        En effet, mes appétences primitives sont la santé et le domaine de l'informatique, après avoir réalisé le premier, je concrétise le second. C'est sans regret...</p>
+                    <p>Cette transition n'a pas été simplement un changement de profession, mais plutôt une évolution naturelle qui a été alimentée par ma soif de connaissances et mon engagement envers l'apprentissage continu. J'ai plongé dans l'univers du développement web avec la même détermination et le même dévouement qui ont caractérisé mes années en tant qu'orthoptiste.
+
+                        Au cours de cette transition, j'ai acquis une solide expertise dans les langages de programmation tels que HTML, CSS et JavaScript, ainsi qu'une compréhension approfondie des concepts clés du développement web. En combinant mes compétences techniques avec ma sensibilité pour les besoins des utilisateurs, je suis convaincue de pouvoir apporter une valeur ajoutée significative à tout projet auquel je contribue.
+
+                        Aujourd'hui, je suis enthousiaste à l'idée de poursuivre cette nouvelle voie professionnelle, tout en restant attachée à mes valeurs fondamentales de dévouement, d'empathie et de recherche constante de l'excellence."</p>
+
+                    <p>Après avoir exercé avec dévouement en tant qu'orthoptiste, plongée dans l'univers de la vision et ses mystères, j'ai ressenti un appel vers de nouveaux horizons. Guidée par ma passion pour la santé et mon intérêt croissant pour l'informatique, j'ai entrepris une reconversion en tant que développeur web. Cette transition, loin d'être un abandon, représente pour moi une évolution naturelle et enrichissante de ma carrière. Forte de mon expérience précédente, j'apporte une compréhension approfondie des besoins des utilisateurs à chaque projet, combinant empathie et expertise technique pour obtenir des résultats remarquables.</p>
+
                 </div>
 
 
