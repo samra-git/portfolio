@@ -2,7 +2,7 @@
     {
         "id": "projet_1",
         "pictures": [
-            "src/assets/booki/allDeviceBooki.jpg",
+            "../assets/booki/allDeviceBooki.jpg",
             "src/assets/booki/emile-guillemot.jpg",
             "src/assets/booki/florian-wehde.jpg"
         ]
