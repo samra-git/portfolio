@@ -12,7 +12,7 @@ const Apropos = () => {
                 transition={{ duration: 0.8 }}
                 className='apropos-content'>
                 <div className='apropos-title'>
-                    <div className='apropos-title-image'>
+                    <div className='apropos-title'>
                         {/* <img src={icon} alt="" /> */}
                         <h1>
                             À propos...
