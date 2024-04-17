@@ -24,9 +24,15 @@
    text-align: center;
    gap: 20px;
    color: white;
-   background-color: #312617ad;
+   background-color: #56462ead;
    color: white;
    padding: 20px 100px;
+
+   @media(max-width: 767px) {
+      padding: 5px;
+   }
+
+
 }
 
 .competences-contain {

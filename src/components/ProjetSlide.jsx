@@ -3,7 +3,7 @@ import CarouselProjets from "./CarouselProjets"
 import { Link } from "react-router-dom"
 import data from '../data/data.json'
 import { useEffect, useState } from "react"
-import { FaArrowUpRightFromSquare} from "react-icons/fa6";
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 import { RiCodeSFill, RiCodeSSlashFill } from "react-icons/ri";
 // import iconProjet from '../assets/logos/icon-projet.png';
 
