@@ -22,7 +22,7 @@
         "description": "Très gros projet de la formation, avec la découverte de Javascript. Réalisation dynamique du site à partir d'un site statique. Ce projet permet de s'initier aux appels API avec utilisation du Swagger, création d'un formulaire, modale...",
         "github":"https://github.com/samra-git/sophie_bluel_P6.git",
         "link":"https://samra-git.github.io/sophie_bluel_P6/FrontEnd/index.html",
-        "technos":"javascript",
+        "technos":"Javascript",
         "pictures": [
             "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/sophie_bluel/sophieBluelW.webp",
             "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/sophie_bluel/s_b2W.webp",
@@ -31,7 +31,7 @@
     },
     {
         "id":"4",
-        "title":"kasa",
+        "title":"Kasa",
         "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
         "description": "8ème projet de la formation et 1er projet avec React avec la découverte de sa librairie et ses frameworks. Projet dont la mission est la refonte d'un site de location immobilière.",
         "github":"https://github.com/samra-git/kasa_p8.git",
@@ -88,13 +88,13 @@
     {
         "id":"8",
         "title":"Portfolio",
-        "cover": "./portfolio_cover.webp",
-        "description": "argentBank...",
-        "github":"https://github.com/samra-git/ArgentBank-website.git",
-        "link":"",
-        "technos":"redux",
+        "cover": "/portfolio_cover.jpg",
+        "description": "Dernier projet de la formation. Site portfolio regroupant la présentation du parcours, les compétences et une sélection de projet. Réalisé avec React et quelques frameworks",
+        "github":"https://github.com/samra-git/portfolio",
+        "link":"https://portfolio-samra.netlify.app/",
+        "technos":"React/Sass",
         "pictures": [
-            "/portfolio_cover.webp",
+            "/portfolio_cover.jpg",
             "/portfolio1.png"
            
         ]

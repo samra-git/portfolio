@@ -75,21 +75,21 @@ const Details = () => {
                     <DetailsCarousel pictures={slides} />
                 </div>
 
-
-
-
                 <div>
                     <motion.p
                         whileTap={{ scale: 1.2 }}>
                         {description}</motion.p>
-                    <motion.div>
+                    <motion.div className='details-content-skills'>
                         <h4>Skills:</h4>
                         <p>{technos}</p>
                     </motion.div>
-                    <div>
-                        <a href={github} target="_blank" rel="noopener noreferrer">Code <FaArrowUpRightFromSquare /></a></div>
-                    <div>
-                        <a href={link} target="_blank" rel="noopener noreferrer">Site <FaArrowUpRightFromSquare /></a>
+                    <div className='details-content-link'>
+
+                        <div>
+                            <a href={github} target="_blank" rel="noopener noreferrer">Code <FaArrowUpRightFromSquare /></a></div>
+                        <div>
+                            <a href={link} target="_blank" rel="noopener noreferrer">Site <FaArrowUpRightFromSquare /></a>
+                        </div>
                     </div>
                 </div>
 

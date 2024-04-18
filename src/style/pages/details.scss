@@ -64,6 +64,29 @@
     }
 }
 
+.details-content-skills{
+    display: flex;
+    // flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.details-content-link {
+    display: flex;
+    gap: 30px;
+    a {
+    color: black;
+
+    }
+    a:hover{
+        background-color: #4c3e2c;
+        color: white;
+        padding: 5px;
+        border-radius: 3px;
+
+    }
+}
+
 // .details-arrowRight{
 //     position: absolute;
 //     top: 0;
