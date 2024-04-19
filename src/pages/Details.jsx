@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react';
-import { useParams, useNavigate, Link } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import data from '../data/data.json'
 import { motion } from 'framer-motion';
 import { IoMdArrowRoundBack, IoMdArrowRoundForward } from "react-icons/io";
-import Slider from 'react-slick';
+// import Slider from 'react-slick';
 import DetailsCarousel from '../components/DetailsCarousel';
 import pictures from '../data/pictures.json'
-import { NavLink } from 'react-router-dom';
-import { MdHttp } from "react-icons/md";
+// import { NavLink } from 'react-router-dom';
+// import { MdHttp } from "react-icons/md";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 
 
@@ -18,22 +19,11 @@ const Details = () => {
     const [picture, setPicture] = useState([]);
     const [back, setBack] = useState(false)
     const { id } = useParams();
-    // const { ID } = useParams();
     const navigate = useNavigate();
-    // console.log(picture);
-
-    // const settings = {
-    //     dots: true,
-    //     infinite: true,
-    //     speed: 500,
-    //     slidesToShow: 1,
-    //     slidesToScroll: 1
-    // };
-
-    // console.log(images);
-    if (back === true) {
-        navigate('/')
-    }
+  
+    // if (back === true) {
+    //     navigate('/')
+    // }
 
     useEffect(() => {
         setGetCard(data)

@@ -55,8 +55,8 @@ const Carousel = (props) => {
            <div className="box">
                 {props.children}
             </div>
-            <div onClick={clickButtonLeft} className="left"><IoIosArrowBack /></div>
-            <div onClick={clickButtonRight} className="right"><IoIosArrowForward /></div>
+            <div onClick={clickButtonLeft} className="left"><IoIosArrowBack className='arrow' /></div>
+            <div onClick={clickButtonRight} className="right"><IoIosArrowForward className='arrow' /></div>
         </div>
     );
 }

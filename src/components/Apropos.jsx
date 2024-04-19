@@ -6,7 +6,7 @@ import icon from '../../public/logos/icon-projet.png'
 
 const Apropos = () => {
     return (
-        <div className='apropos' id="apropos">
+        <div className='apropos'>
             <motion.div
                 // whileHover={{ scale: 1.2 }}
                 transition={{ duration: 0.8 }}
@@ -14,7 +14,7 @@ const Apropos = () => {
                 <div className='apropos-title'>
                     <div className='apropos-title'>
                         {/* <img src={icon} alt="" /> */}
-                        <h1>
+                        <h1 id="about">
                             À propos...
                         </h1>
                     </div>

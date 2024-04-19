@@ -33,7 +33,7 @@
         "id":"4",
         "title":"Kasa",
         "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-        "description": "8ème projet de la formation et 1er projet avec React avec la découverte de sa librairie et ses frameworks. Projet dont la mission est la refonte d'un site de location immobilière.",
+        "description": "Premier projet React avec la découverte de sa librairie et ses frameworks. Projet dont la mission est la refonte d'un site de location immobilière.",
         "github":"https://github.com/samra-git/kasa_p8.git",
         "link":"https://kasa-oc-p8.netlify.app/",
         "technos":"React",

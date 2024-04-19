@@ -1,20 +1,18 @@
 .competences {
-   // padding: 50px;
-   // padding: 20px 100px;
    margin-top: 150px;
    background-color: #56462ead;
    max-height: 500px;
    height: 500px;
-   // padding: 50px 20px;
+ 
 
-   // margin: 100px 20px;
-
-   h2 {
-      padding-left: 20px;
-      display: flex;
-
-
+   @media(max-width: 768px){
+      margin-top: 100px;
    }
+   // h2 {
+   //    padding-left: 20px;
+   //    display: flex;
+
+   // }
 }
 
 .competences-title h1 {
@@ -46,6 +44,9 @@
    -webkit-overflow-scrolling: touch;
    scroll-behavior: smooth;
 
+   @media(max-width: 768px) {
+      gap: 5px;
+   }
 }
 
 .competences-slide {
@@ -64,7 +65,7 @@
       text-align: center;
       width: 6.5em;
       font-weight: 600;
-      color:black;
+      color: black;
 
       @media(max-width: 768px) {
          font-size: 12px;
@@ -72,67 +73,80 @@
          padding: 15px;
       }
 
-      
+
       &:nth-child(1) {
          background-color: rgb(255, 38, 0);
          animation-duration: 20s;
       }
+
       &:nth-child(2) {
          background-color: aqua;
          animation-duration: 22s;
       }
+
       &:nth-child(3) {
          background-color: yellow;
          animation-duration: 23s;
       }
+
       &:nth-child(4) {
          background-color: pink;
          animation-duration: 24s;
       }
+
       &:nth-child(5) {
          background-color: blueviolet;
          animation-duration: 25s;
       }
+
       &:nth-child(6) {
-        background-color: chartreuse;
-        animation-duration: 26s;
+         background-color: chartreuse;
+         animation-duration: 26s;
       }
+
       &:nth-child(7) {
-        background-color: rgb(0, 94, 255);
-        animation-duration: 27s;
+         background-color: rgb(0, 94, 255);
+         animation-duration: 27s;
       }
+
       &:nth-child(8) {
-        background-color: rgb(0, 255, 234);
-        animation-duration: 28s;
-      //   width:6em;
+         background-color: rgb(0, 255, 234);
+         animation-duration: 28s;
+         //   width:6em;
 
       }
+
       &:nth-child(9) {
-        background-color: rgb(255, 0, 0);
-        animation-duration: 29s;
-        width:6.5em;
+         background-color: rgb(255, 0, 0);
+         animation-duration: 29s;
+         width: 6.5em;
       }
+
       &:nth-child(10) {
-        background-color: rgb(0, 85, 255);
-        animation-duration: 30s;
-        width:6em;
+         background-color: rgb(0, 85, 255);
+         animation-duration: 30s;
+         width: 6em;
 
       }
+
       &:nth-child(11) {
-        background-color: rgb(212, 255, 0);
-        animation-duration: 31s;
+         background-color: rgb(212, 255, 0);
+         animation-duration: 31s;
       }
+
       &:nth-child(12) {
-        background-color: rgb(50, 154, 123);
-        animation-duration: 32s;
+         background-color: rgb(50, 154, 123);
+         animation-duration: 32s;
       }
+
       &:nth-child(13) {
-        background-color: rgb(255, 196, 0);
-        animation-duration: 33s;
+         background-color: rgb(255, 196, 0);
+         animation-duration: 33s;
       }
+
       &:nth-child(14) {
-        background-color: rgb(197, 182, 232);
-        animation-duration: 34s;
+         background-color: rgb(197, 182, 232);
+         animation-duration: 34s;
       }
    }
 
@@ -141,16 +155,19 @@
 
 .logo-slide {
    display: inline-block;
-   animation: slide 10s infinite linear;
+   animation: slide 20s infinite linear;
 
    img {
       width: 40px;
       height: 40px;
-      margin: 0 20px;
+      margin: 0 15px;
+
       @media(max-width: 768px) {
          width: 30px;
          height: 30px;
-     }
+         margin: 0 10px;
+
+      }
    }
 
 }
