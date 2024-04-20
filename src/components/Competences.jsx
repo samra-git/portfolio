@@ -41,10 +41,11 @@ const Competences = () => {
                         <li>Flexibilité</li>
                         <li>Gestion de projet (kanban)</li>
                         <li>Patience </li>
-                        <li>Persévérance</li>
+                        {/* <li>Persévérance</li> */}
                         <li>Référencement SEO</li>
                         <li>Accessibilité</li>
                         <li>Autonomie</li>
+                        <li>Rigueur</li>
                         {/* <h3>Soft Skills</h3> */}
                     </ul>
                 </div>

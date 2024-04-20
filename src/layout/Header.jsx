@@ -1,7 +1,7 @@
 // import React from 'react';
 import { useEffect, useState } from 'react';
 import Navigation from '../components/Navigation';
-import logo from '../../public/logos/icon2.png'
+import logo from '/logos/icon2.png'
 
 const Header = () => {
     const [isScrolled, setIsScrolled] = useState(false);

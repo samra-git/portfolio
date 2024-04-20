@@ -76,7 +76,7 @@
         "id":"7",
         "title":"ArgentBank",
         "cover": "https://raw.githubusercontent.com/samra-git/portfolio/main/src/assets/argent_bank/argent_cover.webp",
-        "description": "",
+        "description": "Développement d'une application bancaire par le biais de l'utilisation de redux - redux/toolkit. Rédaction de la documentation d'une API avec swagger editor.",
         "github":"https://github.com/samra-git/ArgentBank-website.git",
         "link":"",
         "technos":"redux","pictures": [
@@ -95,7 +95,8 @@
         "technos":"React/Sass",
         "pictures": [
             "/portfolio_cover.jpg",
-            "/portfolio1.png"
+            "/portfolio1.png",
+            "/portfolio2.png"
            
         ]
     },

@@ -2,7 +2,7 @@
    margin-top: 150px;
    background-color: #56462ead;
    max-height: 500px;
-   height: 500px;
+   height: 500px; 
  
 
    @media(max-width: 768px){
@@ -135,7 +135,7 @@
       }
 
       &:nth-child(12) {
-         background-color: rgb(50, 154, 123);
+         background-color: rgb(149, 60, 166);
          animation-duration: 32s;
       }
 
@@ -147,6 +147,10 @@
       &:nth-child(14) {
          background-color: rgb(197, 182, 232);
          animation-duration: 34s;
+      }
+      &:nth-child(15) {
+         background-color: rgb(47, 136, 141);
+         animation-duration: 35s;
       }
    }
 

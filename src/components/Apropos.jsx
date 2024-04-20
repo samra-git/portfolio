@@ -34,7 +34,7 @@ const Apropos = () => {
 
                         Aujourd'hui, je suis enthousiaste à l'idée de poursuivre cette nouvelle voie professionnelle, tout en restant attachée à mes valeurs fondamentales de dévouement, d'empathie et de recherche constante de l'excellence."</p>
 
-                    <p>Après avoir exercé avec dévouement en tant qu'orthoptiste, plongée dans l'univers de la vision et ses mystères, j'ai ressenti un appel vers de nouveaux horizons. Guidée par ma passion pour la santé et mon intérêt croissant pour l'informatique, j'ai entrepris une reconversion en tant que développeur web. Cette transition, loin d'être un abandon, représente pour moi une évolution naturelle et enrichissante de ma carrière. Forte de mon expérience précédente, j'apporte une compréhension approfondie des besoins des utilisateurs à chaque projet, combinant empathie et expertise technique pour obtenir des résultats remarquables.</p>
+                    
 
                 </div>
 
